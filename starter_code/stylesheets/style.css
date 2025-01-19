@@ -8,3 +8,64 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-purple: #540B51;
+    --background-ivory: #F3EAE2;
+    --button-blue: #4285F4;
+    --titles-black: #191817;
+    --paragraph-black: #000000;
+    --paragraph-yellow: #ECB12F;
+    --links-blue: #2E71A6;
+    --footer-links-grey: #454245;
+}
+
+html {
+    font-size: 100%;
+    background-color: yellowgreen;
+}
+
+.header {
+    position: relative;
+}
+
+/* .hero-product-ui {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+/*********** MEDIA QUERIES ***********/
+
+@media (769px <= width < 1025px) {
+    body {
+        background-color: turquoise;
+    }
+}
+
+@media (1025px <= width < 1441px) {
+    body {
+        background-color: saddlebrown;
+    }
+}
+
+@media (width > 1440px) {
+    body {
+        background-color: orangered;
+    }
+}
