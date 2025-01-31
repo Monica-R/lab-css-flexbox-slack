@@ -361,8 +361,60 @@ html {
 /*********** MEDIA QUERIES ***********/
 
 @media (769px <= width < 1025px) {
-    body {
-        background-color: turquoise;
+    .nav__div {
+        flex-basis: 30%;
+    }
+
+    .header__div {
+        align-items: start;
+    }
+
+    .header__h1 {
+        width: 50%;
+        font-size: calc(4rem + 1vw);
+        text-align: left;
+    }
+
+    .icon-panel {
+        flex-basis: 10%;
+    }
+
+    .header .header__p {
+        width: 50%;
+        font-size: 1.4rem;
+        text-align: left;
+    }
+
+    .hero-product-ui {
+        left: 58%;
+        bottom: 40%;
+    }
+
+    .header__options {
+        width: 50%;
+    }
+
+    .companies-section {
+        padding: 2rem 0;
+    }
+
+    .features-section__ul {
+        flex-direction: row;
+    }
+
+    .percentage__p {
+        text-align: left;
+        padding: 0 2rem;
+    }
+
+    .cta-section__button {
+        width: 80%;
+    }
+
+    .footer__ul {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2rem;
     }
 }
 
