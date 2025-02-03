@@ -386,6 +386,7 @@ html {
     }
 
     .hero-product-ui {
+        position: absolute;
         left: 58%;
         bottom: 40%;
     }
@@ -416,12 +417,139 @@ html {
         justify-content: space-around;
         padding-bottom: 2rem;
     }
+
+    .footer__social-media {
+        justify-content: unset;
+        column-gap: 5rem;
+    }
 }
 
 @media (1025px <= width < 1441px) {
-    body {
-        background-color: saddlebrown;
+    .nav__div {
+        flex-basis: auto;
+        width: 70%;
+        padding: 2rem 0;
+        justify-content: space-evenly;
     }
+
+    .slack-logo {
+        width: 15%;
+        height: 20%;
+        margin-left: 2.8rem;
+    }
+
+    .icon-panel {
+        flex-basis: 25%;
+    }
+
+    .icon-panel button:nth-of-type(2) {
+        display: none;
+    }
+
+    .nav__ul {
+        display: flex;
+        width: 70%;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: flex-end;
+        li {
+            padding: .4rem .8rem;
+        }
+        li a {
+            color: var(--background-ivory);
+            text-decoration: none;
+        }
+    }
+
+    .ul--user {
+        width: 85%;
+    }
+
+    .ul--user li:last-child{
+        background-color: var(--background-ivory);
+        border-radius: 4%;
+        a{
+            color: var(--background-purple);
+        }
+    }
+
+    .header {
+        background-image: url("../images/background-singup.png");
+        background-size: 150%;
+        background-repeat: no-repeat;
+    }
+
+    .header__options {
+        width: 40%;
+    }
+
+    .header__div {
+        align-items: flex-start;
+    }
+
+
+    .header__h1 {
+        width: 50%;
+        font-size: calc(2.5rem + 2.5vw);
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 5rem;
+    }
+
+    .header__p {
+        font-size: calc(.6rem + 1vw);
+        text-align: left;
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .hero-product-ui {
+        position: absolute;
+        bottom: 25%;
+        right: 0;
+    }
+
+    .features-section__ul {
+        flex-direction: row;
+    }
+
+    .percentage__p {
+        text-align: left;
+    }
+
+    .cta-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 1rem;
+    }
+
+    .cta-section__h3 {
+        width: 100%;
+    }
+
+    .cta-section__button {
+        width: 20%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .footer__ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+        gap: 4rem;
+    }
+
+    .footer__social-media {
+        justify-content: unset;
+        column-gap: 5rem;
+    }
+
 }
 
 @media (width > 1440px) {
